@@ -1,0 +1,39 @@
+.container-pembayaran{
+    margin-left: 30px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    
+}
+.card-bodypembayaran{
+    margin-bottom: 50px;
+}
+.img-pembayaran {
+    width: 70%;
+    padding: 20px 20px 20px 20px;
+}
+.Linkaja{
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+
+}
+.card-bodypembayaran{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.harga{
+    margin-left: 60%;
+}
+
+/* Tambahkan ke file CSS Anda */
+.card-clicked .card-bodypembayaran {
+    display: block;
+  }
+  
+  .card-bodypembayaran {
+    display: none; /* Sembunyikan secara default */
+  }
+  
+  /* Gaya lain yang mungkin Anda butuhkan */
+  

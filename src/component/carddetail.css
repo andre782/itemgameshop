@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+.besar {
+    display: flex;
+    
+  }
+.kiri{
+    width: 40%;
+}
+.kanan{
+    width: 60%;
+}
+/* konten kiri */
+
+.img-bannerdetail{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 20px;
+}
+.detail-tulisandetail{
+    margin-left: 20px;
+}
+.nama-gamedetail{
+    font-size: 20px;
+    padding: 20px 0px 10px 0px;
+}
+.button-details button{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.icondetail{
+    font-size: 20px;
+    margin-right: 3px;
+}
+.sing-indetail{
+    margin-bottom: 20px;
+}
+.aplication-downloaddetail{
+    display: flex;
+    width: 20%;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+/* kontent kiri end */
+
+
+s
+/* konten kanan */
+.banner-atasdetail{
+    display: flex;
+    height: 120px;
+    margin-top: 150px;
+    background: rgb(58,16,106);
+    background: linear-gradient(90deg, rgba(58,16,106,1) 22%, rgba(82,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    border-radius: 12px;
+}
+
+.Hemat-uangdetail{
+    background-color: red;
+    width: 19%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+h6{
+    font-size: 14px;
+    padding-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+    z-index: 4;
+   
+}
+.image-promodetail{
+    width: 10%;
+}
+.image-promo-tulisandetail{
+    margin-top: 20px;
+    color: white;
+}
+.image-promo-tulisandetail button{
+    display: block;
+    margin-top: 8px;
+    border-radius: 12px;
+    background-color: yellow;
+    padding: 5px;
+}
+.button-promodetail{
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 70px;
+    background-color: transparent;
+}
+.button-utamadetail{
+    width: 25%;
+    height: 65%;
+    border-radius: 20px;
+   background: rgb(81,38,130);
+background: linear-gradient(90deg, rgba(81,38,130,1) 100%, rgba(82,9,121,1) 100%, rgba(0,212,255,1) 100%);
+
+}
+.button-keduadetail{
+    margin-top: -7px;
+}
+.shopdetail{
+    width: 50%;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+
+}
+.promodetail{
+    width: 50%;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+}
+.shopdetail:hover{
+    background-color: #6242fc;
+}
+.promodetail:hover{
+    background-color: #6242fc;
+
+}
+
+.containerdetail {
+  position: relative;
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+
+.number-stepbystepdetail {
+  position: absolute;
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 40px;
+  margin-top: -20px;
+  width: 50px;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Set the z-index higher than Masukan-user-id */
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: #6242fc;
+    padding: 10px 5px 5px 5px;
+    margin-left: 7px;
+    margin-top: 4px;
+    border-radius: 30px;
+    width: 35px;
+    height: 40px;
+    
+}
+
+.Masukan-user-iddetail {
+  position: relative; /* Make sure it's a positioned element */
+  z-index: 0; 
+  margin-left: 60px;
+}
+.formiddetaail{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    gap: 10px;
+    height: 100px;
+}
+.form-control {
+   background-color: #fff;
+}
+.tutorialmemasukanIDdannama{
+    font-size: 11px;
+    margin-top: -35px;
+    margin-left: 10px;
+    padding: 0px 0px 2px 0px;
+}
+.text-danger{
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.container2detail{
+    position: relative;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: auto;
+    border-radius: 10px;
+}
+.Masukan-user-id2detail{
+    margin-left: 70px;
+}
+.card-topup{
+    padding: 30px 30px 30px 20px;
+}
+.card-img-topdetail{
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* pebayaran */
+.pembayaran-container{
+    padding-bottom: 20px;
+}
+.optional p{
+    font-size: 14px;
+    margin-left: 20px;
+}
+.alamatemail{
+    margin-left: 20px;
+}
+
+
+/* end pebayaran */
+.alamatemail{
+    width: 200px;
+}
+.Addres{
+    margin-left: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.form-beli{
+    width: 95%;
+    height: 40px;
+    margin-left: 15px;
+}
+.form-check{
+    margin-left: 20px;
+    color: #280031;
+    font-size: 12px;
+}
+.button-beli{
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+}
+.btnsubmit{
+    justify-content: end;
+    background-color: #6242fc;
+    margin-right: 30px;
+    color: white;
+    border-radius: 20px;
+    width: 40%;
+}
+.btnsubmit:hover{
+    background-color: blue;
+}
+/* konten kanan end*/
+
+
+/* keterangan-detail-produk */
+.keterangan-detail-produk{
+    background-color: white;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.textketerangan{
+    text-align: center;;
+}
+.property1-10{
+    font-size: 20px;
+    font-family: sans-serif, 'bold';
+}
+.payment{
+    width: 95%;
+}
+
+/* keterangan-detail-produk end */
+
+
+  
+  
+  
+
+
+  
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+      }
+      
+    .besar {
+      display: block;
+      margin-left: -30px;
+    }
+   
+    .kiri,
+    .kanan {
+      width: 100%; /* Setiap bagian akan mengambil lebar penuh */
+    }
+    
+    .img-bannerdetail{
+        width: 115%;
+       margin-left: -1px;
+    }
+    .nama-gamedetail{
+        font-size: 20px;
+        margin-left: -1px;
+    }
+    .button-details {
+        display: flex;
+        margin-left: -10px;
+    }
+    .button-details button{
+        width: 200px;
+    }
+    .konten-kiri{
+        display: none;
+    }
+    .banner-atasdetail{
+        display: none;
+    }
+    .button-promodetail{
+        display: none;
+    }
+    .containerdetail{
+        margin-top: 20px;
+        width: 390px;
+        margin-left: 30px;
+    }
+    .container2detail{
+        width: 100%;
+        margin-left: 30px;
+      
+    }
+    .pmbyrn img{
+        width: 45%;
+    }
+    .pmbyrnLink img{
+        width: 25%;
+    }
+    .pmbyrnTree img{
+        width: 20%;
+    }
+    .text-keterangan-detail-produk{
+        font-size: 12px;
+    }
+    .payment{
+        margin-left: -20px;
+    }
+
+    
+  }
+  
+@media only screen and (max-width: 400px) {
+    .img-bannerdetail{
+        width: 380px;
+    }
+    .containerdetail{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .img-bannerdetail{
+        width: 365px;
+    }
+  
+}

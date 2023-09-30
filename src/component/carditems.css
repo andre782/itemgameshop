@@ -1,0 +1,82 @@
+.container-card{
+    height: auto;
+    margin-bottom: 100px;
+}
+.carditems-container{
+    margin: 25px 0px;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: -45px;
+}
+.carditems{
+    width: 19%;
+    background: #f9f9f9;
+    border-radius: 15px;
+    height: 185px;
+    padding: 10px 0px 10px 0px;
+}
+.imgcarditems{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-img-topitems{
+    width: 60px;
+    
+}
+.titlecard{
+    font-size: 14px;
+    text-align: center;
+}
+.textcard{
+    font-size: 10px;
+    color: red;
+    text-align: center;
+}
+.textharga{
+    margin-top: -15px;
+    text-align: center;
+    font-size: 14px;
+    color: red;
+}
+
+
+.pembayaran{
+    height: 100vh;
+}
+
+.carditems-container {
+    display: flex;
+    margin-right: -40px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .carditems {
+    width: 18%; /* Lebar kartu */
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      width: 100%; /* Mengubah lebar kartu menjadi 100% pada mode handphone */
+    }
+  }
+
+
+@media (max-width: 767px) {
+    .carditems-container {
+        display: flex;
+        flex-wrap: wrap; /* Kartu akan melompat ke baris baru jika tidak muat dalam satu baris */
+         gap: 10px; /* Mengatur jarak antara kartu */
+      }
+      
+      .carditems {
+        width: 42%; /* Mengatur lebar masing-masing kartu agar 3 kartu muat dalam satu baris */
+        margin-bottom: 20px; /* Mengatur jarak antara kartu */
+      }
+      
+
+}
